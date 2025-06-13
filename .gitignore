@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Django SQLite database
+db.sqlite3
+
+# Static files from collectstatic
+/staticfiles/
+
+# Virtual environments
+venv/
+env/
+ENV/
+Lib/
+myproject/Lib/
+
+# IDE/editor folders
+.idea/
+.vscode/
+
+# Environment variable & secret files
+.env
+
+# Django migrations cache
+**/migrations/*.pyc
+**/migrations/__pycache__/
+
+# macOS system files
+.DS_Store
